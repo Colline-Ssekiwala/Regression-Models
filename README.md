@@ -5,4 +5,8 @@
 
 $$y = ax + b$$
 
-where $a$ and $b$ are constants, and $x$ is the input variable. A linear function has a constant rate of change, meaning that the difference between any two output values is proportional to the difference between the corresponding input values. A linear function can be represented by a straight line on a graph, where the slope of the line $(Coefficient)$ is equal to $a$, and the $y-intercept$ is equal to $b$. A linear function can be used to model situations that have a constant rate of change, such as speed, distance, or cost.</p>
+<p>where $a$ and $b$ are $constants$</p>
+<p>$x$ is the $independent$ $feature$</p>
+<p>$y$ is the $dependent$ $variable$</p>
+
+<p>A linear function has a constant rate of change, meaning that the difference between any two output values is proportional to the difference between the corresponding input values. A linear function can be represented by a straight line on a graph, where the slope of the line $(Coefficient)$ is equal to $a$, and the $y-intercept$ is equal to $b$. A linear function can be used to model situations that have a constant rate of change, such as speed, distance, or cost.</p>
