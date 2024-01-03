@@ -12,6 +12,16 @@ $$y = ax + b$$
 <p>A linear function has a constant rate of change, meaning that the difference between any two output values is proportional to the difference between the corresponding input values. A linear function can be represented by a straight line on a graph, where the slope of the line $(Coefficient)$ is equal to $a$, and the $y-intercept$ is equal to $b$. A linear function can be used to model situations that have a constant rate of change, such as speed, distance, or cost.</p>
 
 ## <a href="https://github.com/Colline-Ssekiwala/Regression-Models/blob/main/Cmultiple_linear_regression.ipynb">Multiple Linear Regression</a>
+<p>Multiple linear regression is a statistical technique that allows you to model the relationship between one continuous dependent variable and two or more continuous or categorical independent variables.</p>
+<p>The formula for multiple linear regression is:</p>
+<p>$$y = β0 ​+ β1​x1 ​+ β2​x2 ​+...+ βk​xk​$$
+where:</p>
+
+<p>$y$ is the $dependent variable$</p>
+<p>$β0$​ is the $intercept$</p>
+<p>$β1​,β2​,...,βk$​ are the $coefficients$ of the $independent variables$</p>
+<p>$x1​,x2​,...,xk$​ are the $independent variables$</p>
+<p>The coefficients $β0​,β1​,...,βk​$ are estimated using a method called ordinary least squares (OLS), which minimizes the sum of squared errors (SSE) between the observed and predicted values of $y$</p>
 <code>print(regressor.predict([[1, 0, 0, 160000, 130000, 300000]]))</code>
 **Important note 1:** Notice that the values of the features were all input in a double pair of square brackets. That's because the "predict" method always expects a 2D array as the format of its inputs. And putting our values into a double pair of square brackets makes the input exactly a 2D array. Simply put:
 
